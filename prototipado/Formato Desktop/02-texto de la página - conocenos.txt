@@ -1,0 +1,53 @@
+** HOME **
+
+** NAVBAR **
+
+inicio | conocenos | menú | contacto
+
+** HEADER **
+
+CONOCENOS
+
+** SECCION CONOCENOS **
+
+Historia y Misión
+
+En Pizza Paradise llevamos desde  1989 ofreciendo pizzas artesanales con ingredientes frescos y recetas tradicionales italianas. Nuestra misión es crear un ambiente acogedor donde cada visita sea una experiencia gastronómica memorable.
+
+Valores
+
+Valoramos la calidad, la autenticidad y la pasión por la buena comida. Nos esforzamos por usar solo los mejores ingredientes y mantener estándares elevados en cada pizza que servimos.
+
+Experiencia del cliente
+
+Para nosotros, nuestros clientes son nuestra prioridad. Nos esforzamos por brindar un servicio excepcional y un ambiente cálido donde puedan disfrutar de momentos especiales con familiares y amigos.
+
+Premios o Reconocimientos
+
+Hemos sido reconocidos por múltiples organismos por nuestra excelencia en la cocina y el servicio al cliente, lo cual nos motiva a seguir mejorando cada día.
+
+
+
+** FOOTER **
+
+    Horarios
+
+    Lunes a Viernes de 11:00hs a 22:00hs
+
+    Sábado y Domingo de 12:00hs a 23:00hs
+
+
+    Contacto
+
+    Contáctanos a través de nuestro teléfono (123) 456 - 7890
+
+    También puedes comunicarte con nosotros a través del siguiente mail info@pizzaparadise.com
+
+
+    ¡Ubícanos!
+
+    Vení a nuestra sucursal principal de Pizza Paradise
+
+    Calle Falsa 123, Ciudad imaginaria
+
+

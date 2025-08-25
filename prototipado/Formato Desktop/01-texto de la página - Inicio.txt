@@ -1,0 +1,47 @@
+** HOME **
+
+** NAVBAR **
+
+inicio | conocenos | menú | contacto
+
+** HEADER **
+Desde 1989, en Pizza Paradise, hemos estando creando pizzas auténticas con pasión y dedicación
+Utilizamos solo los mejores ingredientes para ofrecerte una experiencia culinaria inigualable. Ven y descubre el sabor que           nos hace únicos. ¡Bienvenidos al paraíso de las pizzas!
+
+** CARD **
+
+Pizzería
+
+El lugar donde la tradición italiana se encuentra con los sabores más auténticos. ¡Disfruta de nuestras pizzas artesanales y vive una experiencia única en cada bocado!
+
+Restaurante
+
+Donde cada plato es una obra maestra. Descubre nuestro menú variado y disfruta de una comida excepcional en un ambiente acogedor y familiar.
+
+Cafetería
+
+Déjate seducir por el aroma del café y delicias frescas. Nuestra cafetería es el lugar perfecto para empezar tu día o relajarte en cualquier momento.
+
+** FOOTER **
+
+    Horarios
+
+    Lunes a Viernes de 11:00hs a 22:00hs
+
+    Sábado y Domingo de 12:00hs a 23:00hs
+
+
+    Contacto
+
+    Contáctanos a través de nuestro teléfono (123) 456 - 7890
+
+    También puedes comunicarte con nosotros a través del siguiente mail info@pizzaparadise.com
+
+
+    ¡Ubícanos!
+
+    Vení a nuestra sucursal principal de Pizza Paradise
+
+    Calle Falsa 123, Ciudad imaginaria
+
+

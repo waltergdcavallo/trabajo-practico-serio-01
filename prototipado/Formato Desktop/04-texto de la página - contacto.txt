@@ -1,0 +1,52 @@
+** HOME **
+
+** NAVBAR **
+
+inicio | conocenos | menú | contacto
+
+** HEADER **
+
+CONTACTO
+
+** SECCION CONTACTO **
+
+
+Formulario de contacto
+
+
+nombre y apellido*
+
+teléfono*
+
+dirección de entrega*
+
+mensaje para el Delivery
+
+
+Botonnes --> enviar y cancelar
+
+
+
+** FOOTER **
+
+    Horarios
+
+    Lunes a Viernes de 11:00hs a 22:00hs
+
+    Sábado y Domingo de 12:00hs a 23:00hs
+
+
+    Contacto
+
+    Contáctanos a través de nuestro teléfono (123) 456 - 7890
+
+    También puedes comunicarte con nosotros a través del siguiente mail info@pizzaparadise.com
+
+
+    ¡Ubícanos!
+
+    Vení a nuestra sucursal principal de Pizza Paradise
+
+    Calle Falsa 123, Ciudad imaginaria
+
+

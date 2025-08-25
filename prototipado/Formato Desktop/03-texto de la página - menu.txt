@@ -1,0 +1,85 @@
+** HOME **
+
+** NAVBAR **
+
+inicio | conocenos | menú | contacto
+
+** HEADER **
+
+MENÚ
+
+** SECCION MENÚ **
+
+
+Pizzas
+
+    1. Pizza Margarita-$10.99
+
+    Mozzarella fresca, tomate y albahaca.
+
+    2. Pizza Pepperoni-$12.99
+
+    Pepperoni, mozzarella y salsa de tomate.
+
+    3. Pizza Vegetariana-$11.99
+
+     Variedad de vegetales frescos y mozzarella.
+
+    4. Pizza Prosciutto e Funghi-$13.99
+
+    Jamón prosciutto, champiñones y mozzarella.
+
+    5. Pizza Quattro Stagioni-$14.99
+
+    Jamón, alcachofas, champiñones, aceitunas y mozzarella.
+
+
+
+Entradas
+
+    1. Bruschettas-$5.99
+
+    Bruschettas tradicionales con tomate fresco y albahaca.
+
+    2. Ensalada Caprese-$7.99
+
+    Mozzarella fresca, tomate y albahaca con aceite de oliva.
+
+
+
+Pasta
+
+    1. Pasta Carbonara-$13.99
+
+    Pasta al dente con salsa de huevo, panceta, queso parmesano y pimienta negra.
+
+    2. Pasta Bolognesa-$12.99
+
+    Pasta al dente con salsa de carne picada en tomate y cebolla.
+
+
+
+
+** FOOTER **
+
+    Horarios
+
+    Lunes a Viernes de 11:00hs a 22:00hs
+
+    Sábado y Domingo de 12:00hs a 23:00hs
+
+
+    Contacto
+
+    Contáctanos a través de nuestro teléfono (123) 456 - 7890
+
+    También puedes comunicarte con nosotros a través del siguiente mail info@pizzaparadise.com
+
+
+    ¡Ubícanos!
+
+    Vení a nuestra sucursal principal de Pizza Paradise
+
+    Calle Falsa 123, Ciudad imaginaria
+
+
