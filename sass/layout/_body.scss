@@ -3,11 +3,12 @@ body{
 }
 
 .bichito{
-    background-image: url(../../assets/img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+    background-size: auto;
     color: $fondo-blanco;
     text-align: center;
     background-size: cover;
-    height: 43.75rem;
+    display: flex;
     div{
         h4, h1{
 
