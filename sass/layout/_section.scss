@@ -1,0 +1,20 @@
+.section_cambiado{
+    text-align: center;
+    background-color: $fondo-blanco;
+    margin-top: 6.25rem;
+    padding-bottom: 9.375rem;
+    .cabeza{
+        display: flex;
+
+    }
+
+    div{
+        margin-bottom:3.125rem ;
+        img{
+            width: 50%;
+            border-radius: 1.875rem;
+            height: 60%;
+        }
+    }
+
+}

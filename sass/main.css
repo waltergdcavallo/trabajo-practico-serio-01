@@ -1,0 +1,57 @@
+.botonsito {
+  background-color: #A10000;
+  text-decoration: none;
+  color: #FFEBDD;
+  padding: 1.25rem;
+  border-radius: 2.5rem;
+}
+
+.boton_bordeado {
+  text-decoration: none;
+  color: black;
+  border: 0.3125rem solid;
+  border-radius: 40px;
+  background-color: #FFEBDD;
+  padding: 1.25rem;
+  border-color: #A10000;
+}
+
+.header_cambiado {
+  text-align: center;
+}
+.header_cambiado a img {
+  width: 5%;
+}
+
+.section_cambiado {
+  text-align: center;
+  background-color: #FFEBDD;
+  margin-top: 6.25rem;
+  padding-bottom: 9.375rem;
+}
+.section_cambiado .cabeza {
+  display: flex;
+}
+.section_cambiado div {
+  margin-bottom: 3.125rem;
+}
+.section_cambiado div img {
+  width: 50%;
+  border-radius: 1.875rem;
+  height: 60%;
+}
+
+body {
+  background-color: #FFEBDD;
+}
+
+.bichito {
+  background-image: url(../../assets/img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+  color: #FFEBDD;
+  text-align: center;
+  background-size: cover;
+  height: 43.75rem;
+}
+.bichito div h4, .bichito div h1 {
+  margin-top: 50%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,18 @@
+.botonsito{
+    background-color: $fondo-rojo;
+    text-decoration: none;
+    color: $fondo-blanco;
+    padding: 1.25rem;
+    border-radius: 2.5rem;
+
+}
+.boton_bordeado{
+    text-decoration: none;
+    color: black;
+    border: .3125rem solid;
+    border-radius: 40px;
+    background-color: $fondo-blanco;
+    padding: 1.25rem;
+    border-color: $fondo-rojo;
+    
+}

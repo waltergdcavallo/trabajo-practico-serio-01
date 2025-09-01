@@ -1,0 +1,17 @@
+body{
+    background-color: $fondo-blanco;
+}
+
+.bichito{
+    background-image: url(../../assets/img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    color: $fondo-blanco;
+    text-align: center;
+    background-size: cover;
+    height: 43.75rem;
+    div{
+        h4, h1{
+
+            margin-top: 50%;
+        }
+    }
+}
