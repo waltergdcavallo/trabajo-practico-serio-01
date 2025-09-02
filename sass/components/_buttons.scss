@@ -2,17 +2,41 @@
     background-color: $fondo-rojo;
     text-decoration: none;
     color: $fondo-blanco;
-    padding: 1.25rem;
-    border-radius: 2.5rem;
+    padding: .4375rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-radius: 5rem;
+    transition: 1s;
+    &:hover{
+        scale: 1.2;
+        transition: 1s;
+    }
 
 }
+
 .boton_bordeado{
     text-decoration: none;
     color: black;
     border: .3125rem solid;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     background-color: $fondo-blanco;
-    padding: 1.25rem;
+    padding: .625rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     border-color: $fondo-rojo;
-    
+    transition: 1s;
+    &:hover{
+        scale: 1.2;
+        transition: 1s;
+    }
+}
+
+.botonsito-nav{
+    float: right;
+    margin-top: 2.5rem;
+    transition: 1s;
+    &:hover{
+        scale: 1.2;
+        transition: 1s;
+    }
 }
