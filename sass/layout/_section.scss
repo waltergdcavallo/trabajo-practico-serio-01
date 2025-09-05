@@ -1,19 +1,23 @@
 .section_cambiado{
     text-align: center;
     background-color: $fondo-blanco;
-    margin-top: 6.25rem;
-    padding-bottom: 9.375rem;
-    .cabeza{
-        display: flex;
-
-    }
+    margin-top: 10%;
+    padding-bottom: 10%;
 
     div{
-        margin-bottom:3.125rem ;
+        margin-bottom: 5%;
+        h3{
+            margin-bottom: 10%;
+        }
+        p{
+            width: 70%;
+            display: inline-block;
+            text-align: justify;
+        }
         img{
             width: 50%;
             border-radius: 1.875rem;
-            height: 60%;
+            height: 50%;
         }
     }
 

@@ -2,11 +2,12 @@
   background-color: #A10000;
   text-decoration: none;
   color: #FFEBDD;
-  padding: 0.4375rem;
+  padding: 2vh;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   border-radius: 5rem;
   transition: 1s;
+  display: inline-block;
 }
 .botonsito:hover {
   scale: 1.2;
@@ -19,11 +20,12 @@
   border: 0.3125rem solid;
   border-radius: 2.5rem;
   background-color: #FFEBDD;
-  padding: 0.625rem;
+  padding: 2vh;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   border-color: #A10000;
   transition: 1s;
+  display: inline-block;
 }
 .boton_bordeado:hover {
   scale: 1.2;
@@ -31,17 +33,55 @@
 }
 
 .botonsito-nav {
-  float: right;
-  margin-top: 2.5rem;
+  background-color: #A10000;
+  text-decoration: none;
+  color: #FFEBDD;
   transition: 1s;
+  border-radius: 2vh;
+  display: inline-block;
 }
 .botonsito-nav:hover {
   scale: 1.2;
   transition: 1s;
 }
 
+.botonsito-head {
+  background-color: #A10000;
+  text-decoration: none;
+  color: #FFEBDD;
+  padding: 2vh;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  border-radius: 5rem;
+  transition: 1s;
+  display: inline-block;
+}
+.botonsito-head:hover {
+  scale: 1.2;
+  transition: 1s;
+}
+
 .header_cambiado {
   text-align: center;
+}
+.header_cambiado div {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5%;
+}
+.header_cambiado .p_header_1 {
+  font-size: 1.5em;
+  width: 60%;
+  display: inline-block;
+}
+.header_cambiado .p_header_2 {
+  font-size: 0.7em;
+  width: 30%;
+  display: inline-block;
+}
+.header_cambiado .p_header_3 {
+  margin-top: 2%;
+  font-size: 1.2em;
 }
 .header_cambiado a img {
   width: 5%;
@@ -50,23 +90,29 @@
 .section_cambiado {
   text-align: center;
   background-color: #FFEBDD;
-  margin-top: 6.25rem;
-  padding-bottom: 9.375rem;
-}
-.section_cambiado .cabeza {
-  display: flex;
+  margin-top: 10%;
+  padding-bottom: 10%;
 }
 .section_cambiado div {
-  margin-bottom: 3.125rem;
+  margin-bottom: 5%;
+}
+.section_cambiado div h3 {
+  margin-bottom: 10%;
+}
+.section_cambiado div p {
+  width: 70%;
+  display: inline-block;
+  text-align: justify;
 }
 .section_cambiado div img {
   width: 50%;
   border-radius: 1.875rem;
-  height: 60%;
+  height: 50%;
 }
 
 body {
   background-color: #FFEBDD;
+  width: 100%;
 }
 
 .bichito {
@@ -74,30 +120,46 @@ body {
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
   background-position: center;
+  text-align: center;
 }
 .bichito h1 {
   text-align: center;
   margin-top: 15%;
   color: #fff;
-  font-size: 6.25rem;
+  font-size: 4.6875rem;
 }
 .bichito h4 {
   text-align: center;
   margin-top: 2%;
   color: #fff;
-  font-size: 3.125rem;
+  font-size: 2.1875rem;
+}
+.bichito a {
+  margin-top: 10%;
 }
 
 .corazoncito {
   background-color: #fff;
-  height: 8.125rem;
-  position: fixed;
+  height: 100px;
   width: 100%;
+  position: fixed;
+}
+@media screen and (max-width: 1200px) {
+  .corazoncito {
+    position: absolute;
+  }
+  .corazoncito .ig {
+    display: none;
+  }
+  .corazoncito .resaltado {
+    display: none;
+  }
+  .corazoncito .normal {
+    display: none;
+  }
 }
 .corazoncito .ig {
-  float: right;
-  height: 40%;
-  margin-top: 2.1875rem;
+  height: 50%;
   transition: 1s;
 }
 .corazoncito .ig:hover {
@@ -112,9 +174,10 @@ body {
 }
 .corazoncito .resaltado {
   font-weight: bold;
-  color: black;
-  padding: 3.5625rem;
+  height: auto;
   transition: 1s;
+  font-size: 20px;
+  color: black;
 }
 .corazoncito .resaltado:hover {
   background-color: #A10000;
@@ -124,11 +187,44 @@ body {
 .corazoncito .normal {
   font-weight: 100;
   color: grey;
-  padding: 3.5625rem;
+  height: 100%;
   transition: 1s;
+  font-size: 20px;
+  align-items: center;
 }
 .corazoncito .normal:hover {
   background-color: #A10000;
   color: #fff;
   transition: 1.5s;
+}
+
+footer {
+  background-color: rgba(138, 67, 67, 0.9);
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  color: #fff;
+}
+footer h3 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20%;
+}
+footer div {
+  height: 60vh;
+}
+footer div p {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+footer div .p_footer {
+  text-align: justify;
+}
+footer div .imagen_footer_1 {
+  height: 30%;
+}
+footer div .imagen_footer_2 {
+  height: 15%;
+  float: inline-start;
+  margin-top: 3%;
 }/*# sourceMappingURL=main.css.map */

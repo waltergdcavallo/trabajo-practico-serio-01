@@ -2,11 +2,13 @@
     background-color: $fondo-rojo;
     text-decoration: none;
     color: $fondo-blanco;
-    padding: .4375rem;
+    padding: 2vh;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     border-radius: 5rem;
     transition: 1s;
+    display: inline-block;
+
     &:hover{
         scale: 1.2;
         transition: 1s;
@@ -20,11 +22,13 @@
     border: .3125rem solid;
     border-radius: 2.5rem;
     background-color: $fondo-blanco;
-    padding: .625rem;
+    padding: 2vh;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     border-color: $fondo-rojo;
     transition: 1s;
+    display: inline-block;
+
     &:hover{
         scale: 1.2;
         transition: 1s;
@@ -32,10 +36,31 @@
 }
 
 .botonsito-nav{
-    float: right;
-    margin-top: 2.5rem;
+    background-color: $fondo-rojo;
+    text-decoration: none;
+    color: $fondo-blanco;
     transition: 1s;
+    border-radius: 2vh;
+    display: inline-block;
+    
     &:hover{
+        scale: 1.2;
+        transition: 1s;
+    }
+}
+
+.botonsito-head{
+    background-color: $fondo-rojo;
+    text-decoration: none;
+    color: $fondo-blanco;
+    padding: 2vh;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-radius: 5rem;
+    transition: 1s;
+    display: inline-block;
+    
+        &:hover{
         scale: 1.2;
         transition: 1s;
     }
