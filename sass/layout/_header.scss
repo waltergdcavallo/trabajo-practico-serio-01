@@ -29,4 +29,28 @@
             width: 5%;
         }
     }
+
+    @include mobile{
+
+        .p_header_1{
+            font-size: 3em;
+            width: 80%;
+        }
+
+        .p_header_2{
+            font-size: 1.5em;
+            width: 95%;
+        }
+
+        .p_header_3{
+            margin-top: 10%;
+            font-size: 2em;
+        }
+        a{
+            img{
+                width: 15%;
+
+            }
+        }
+    }
 }

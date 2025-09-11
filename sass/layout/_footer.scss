@@ -34,13 +34,15 @@ footer{
 }
 
 @include mobile{
+    .espaciado{
+        display: none;
+    }
+
     footer{
         text-align: left;
         height: 180vh;
 
-        .espaciado{
-            display: none;
-        }
+
 
 
         h3{

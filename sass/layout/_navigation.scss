@@ -13,6 +13,21 @@
         text-decoration: none;
     }
 
+    .ig{
+        height: auto;
+        transition: 1s;
+        width: 4.5%;
+        float: right;
+        position: relative;
+        margin-top: 2%;
+    
+        &:hover{
+            scale: 1.2;
+            transition: 1s;
+        }
+    }
+}
+
     .resaltado{
         font-weight: bold;
         font-size: 1.8em;
@@ -38,31 +53,40 @@
         scale: 1.3%;
         }
     }
-}
 
-    .ig{
-        height: auto;
-        transition: 1s;
-        width: 4.5%;
-        float: right;
-        position: relative;
-        margin-top: 2%;
-
-        &:hover{
-            scale: 1.2;
-            transition: 1s;
-        }
+    .corazoncito_mobile{
+        display: none;
     }
 
     @include mobile{
+        .corazoncito{
+            display: none;
+        }
 
-        .ig{
-            display: none;
-        }
-        .resaltado{
-            display: none;
-        }
-        .normal{
-            display: none;
+
+        .corazoncito_mobile{
+            background-color: #fff;
+            display: flex;
+            padding-bottom: 5%;
+
+            .fotito{
+                width: 100%;
+                text-align: center;
+                .logo{
+                    width: 50%;
+                }
+            }
+
+            .resaltado, .normal{
+                color: #fff !important;
+                margin-top: 2%;
+                margin-left: auto;
+                width: 50%;
+                float: inline-start;
+
+                &:hover{
+                    scale: none;
+                }
+            }
         }
     }

@@ -31,6 +31,14 @@
   scale: 1.2;
   transition: 1s;
 }
+@media screen and (max-width: 768px) {
+  .boton_bordeado {
+    font-size: 2em;
+    padding: 1vh;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+  }
+}
 
 .botonsito-nav {
   background-color: #A10000;
@@ -64,6 +72,14 @@
   scale: 1.2;
   transition: 1s;
 }
+@media screen and (max-width: 768px) {
+  .botonsito-head {
+    font-size: 2em;
+    padding: 1vh;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+  }
+}
 
 .header_cambiado {
   text-align: center;
@@ -90,6 +106,23 @@
 .header_cambiado a img {
   width: 5%;
 }
+@media screen and (max-width: 768px) {
+  .header_cambiado .p_header_1 {
+    font-size: 3em;
+    width: 80%;
+  }
+  .header_cambiado .p_header_2 {
+    font-size: 1.5em;
+    width: 95%;
+  }
+  .header_cambiado .p_header_3 {
+    margin-top: 10%;
+    font-size: 2em;
+  }
+  .header_cambiado a img {
+    width: 15%;
+  }
+}
 
 .section_cambiado {
   text-align: center;
@@ -115,6 +148,27 @@
   height: 50%;
 }
 
+@media screen and (max-width: 768px) {
+  .section_cambiado {
+    margin-top: 30%;
+  }
+  .section_cambiado div {
+    display: inline-block;
+    width: 100%;
+  }
+  .section_cambiado div h3 {
+    font-size: 3em;
+  }
+  .section_cambiado div p {
+    width: 80%;
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+  .section_cambiado div img {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
 body {
   background-color: #FFEBDD;
   width: 100%;
@@ -133,7 +187,7 @@ body {
   text-align: center;
   margin-top: 15%;
   color: #fff;
-  font-size: 4em;
+  font-size: 6em;
 }
 .bichito h4 {
   text-align: center;
@@ -143,6 +197,11 @@ body {
 }
 .bichito a {
   margin-top: 10%;
+}
+@media screen and (max-width: 768px) {
+  .bichito {
+    background-size: cover;
+  }
 }
 
 .corazoncito {
@@ -158,30 +217,7 @@ body {
 .corazoncito a {
   text-decoration: none;
 }
-.corazoncito .resaltado {
-  font-weight: bold;
-  font-size: 1.8em;
-  color: black;
-  margin-left: 5%;
-  transition: 1s;
-}
-.corazoncito .resaltado:hover {
-  transition: 1s;
-  color: #A10000;
-  scale: 1.3%;
-}
-.corazoncito .normal {
-  font-weight: 100;
-  color: grey;
-  font-size: 150%;
-}
-.corazoncito .normal:hover {
-  transition: 1s;
-  color: #A10000;
-  scale: 1.3%;
-}
-
-.ig {
+.corazoncito .ig {
   height: auto;
   transition: 1s;
   width: 4.5%;
@@ -189,20 +225,64 @@ body {
   position: relative;
   margin-top: 2%;
 }
-.ig:hover {
+.corazoncito .ig:hover {
   scale: 1.2;
   transition: 1s;
 }
 
+.resaltado {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: black;
+  margin-left: 5%;
+  transition: 1s;
+}
+.resaltado:hover {
+  transition: 1s;
+  color: #A10000;
+  scale: 1.3%;
+}
+
+.normal {
+  font-weight: 100;
+  color: grey;
+  font-size: 150%;
+}
+.normal:hover {
+  transition: 1s;
+  color: #A10000;
+  scale: 1.3%;
+}
+
+.corazoncito_mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
-  .ig {
+  .corazoncito {
     display: none;
   }
-  .resaltado {
-    display: none;
+  .corazoncito_mobile {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 5%;
   }
-  .normal {
-    display: none;
+  .corazoncito_mobile .fotito {
+    width: 100%;
+    text-align: center;
+  }
+  .corazoncito_mobile .fotito .logo {
+    width: 50%;
+  }
+  .corazoncito_mobile .resaltado, .corazoncito_mobile .normal {
+    color: #fff !important;
+    margin-top: 2%;
+    margin-left: auto;
+    width: 50%;
+    float: inline-start;
+  }
+  .corazoncito_mobile .resaltado:hover, .corazoncito_mobile .normal:hover {
+    scale: none;
   }
 }
 footer {
@@ -238,12 +318,12 @@ footer .div_footer .imagen_footer_2 {
 }
 
 @media screen and (max-width: 768px) {
+  .espaciado {
+    display: none;
+  }
   footer {
     text-align: left;
     height: 180vh;
-  }
-  footer .espaciado {
-    display: none;
   }
   footer h3 {
     margin-top: 10%;

@@ -11,19 +11,26 @@ body{
     text-align: center;
     background-repeat: no-repeat;
     font-family: para_foto;
+
     h1{
         text-align: center;
         margin-top: 15%;
         color: #fff;
-        font-size: 4em;
+        font-size: 6em;
     }
+
     h4{
         text-align: center;
         margin-top: 2%;
         color: #fff;
         font-size: 2em;
     }
+
     a{
         margin-top: 10%;
+    }
+
+    @include mobile{
+        background-size: cover;
     }
 }

@@ -21,5 +21,29 @@
             height: 50%;
         }
     }
+}
+@include mobile{
+    .section_cambiado{
+        margin-top: 30%;
+        
+        div{
+            display: inline-block;
+            width: 100%;
+            
+            h3{
+                font-size: 3em;
+            }
 
+            p{
+                width: 80%;
+                font-size: 1.5em;
+                margin-bottom: 10%;
+            }
+
+            img{
+                width: 80%;
+                margin-top: 10%;
+            }
+        }
+    }
 }
