@@ -14,10 +14,17 @@ body{
     background-size: cover;
 
     h1{
-        text-align: center;
         margin-top: 15%;
         color: #fff;
         font-size: 6em;
+    }
+
+    @include mobile{
+        height: 80vh;
+
+        h1{
+            font-size: 3.5em;
+        }
     }
 }
 
@@ -38,6 +45,14 @@ body{
         color: #fff;
         font-size: 6em;
     }
+
+    @include mobile{
+        height: 80vh;
+
+        h1{
+            font-size: 3.5em;
+        }
+    }
 }
 
 
@@ -56,6 +71,14 @@ body{
         margin-top: 15%;
         color: #fff;
         font-size: 6em;
+    }
+
+    @include mobile{
+        height: 80vh;
+
+        h1{
+            font-size: 3.5em;
+        }
     }
 }
 
@@ -117,6 +140,14 @@ body{
 
     a{
         margin-top: 10%;
+    }
+
+    @include mobile{
+        height: 80vh;
+        
+        h1{
+            font-size: 3.5em;
+        }
     }
 }
 

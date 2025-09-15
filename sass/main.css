@@ -195,10 +195,17 @@ body {
   background-size: cover;
 }
 .bichito_conocenos h1 {
-  text-align: center;
   margin-top: 15%;
   color: #fff;
   font-size: 6em;
+}
+@media screen and (max-width: 769px) {
+  .bichito_conocenos {
+    height: 80vh;
+  }
+  .bichito_conocenos h1 {
+    font-size: 3.5em;
+  }
 }
 
 .bichito_contacto {
@@ -217,6 +224,14 @@ body {
   color: #fff;
   font-size: 6em;
 }
+@media screen and (max-width: 769px) {
+  .bichito_contacto {
+    height: 80vh;
+  }
+  .bichito_contacto h1 {
+    font-size: 3.5em;
+  }
+}
 
 .bichito_delivery {
   height: 100vh;
@@ -233,6 +248,14 @@ body {
   margin-top: 15%;
   color: #fff;
   font-size: 6em;
+}
+@media screen and (max-width: 769px) {
+  .bichito_delivery {
+    height: 80vh;
+  }
+  .bichito_delivery h1 {
+    font-size: 3.5em;
+  }
 }
 
 .bichito_inicio {
@@ -285,6 +308,14 @@ body {
 }
 .bichito_menu a {
   margin-top: 10%;
+}
+@media screen and (max-width: 769px) {
+  .bichito_menu {
+    height: 80vh;
+  }
+  .bichito_menu h1 {
+    font-size: 3.5em;
+  }
 }
 
 .div-conocenos {
