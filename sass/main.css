@@ -118,16 +118,16 @@
 }
 @media screen and (max-width: 769px) {
   .header_cambiado .p_header_1 {
-    font-size: 3em;
+    font-size: 2.1em;
     width: 80%;
   }
   .header_cambiado .p_header_2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 95%;
   }
   .header_cambiado .p_header_3 {
     margin-top: 10%;
-    font-size: 2em;
+    font-size: 1.3em;
   }
   .header_cambiado a img {
     width: 15%;
@@ -282,6 +282,17 @@ body {
 }
 .bichito_inicio a {
   margin-top: 10%;
+}
+@media screen and (max-width: 769px) {
+  .bichito_inicio {
+    height: 80vh;
+  }
+  .bichito_inicio h1 {
+    font-size: 3.5em;
+  }
+  .bichito_inicio h4 {
+    font-size: 1em;
+  }
 }
 
 .bichito_menu {
@@ -487,6 +498,11 @@ body {
   background-color: rgb(138, 67, 67);
   font-family: para_fotos;
   font-size: 1.5em;
+}
+@media screen and (max-width: 769px) {
+  .div-menu div h1 {
+    font-size: 1em;
+  }
 }
 
 .div-delivery {
