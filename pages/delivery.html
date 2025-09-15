@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trabajo Practico | Menu</title>
+    <title>Trabajo Practico | Delivery</title>
 
     <!-- enlace al css de bootstrap -->
     
@@ -18,13 +18,13 @@
 </head>
 
 <body>
-
+    
     <nav class="corazoncito">
         <img src="../assets/logo/logo.png" alt="" class="logo mx-5">
         <a href="/pages/inicio.html" class="normal me-5 nav-item">Inicio</a>
         <a href="/pages/conocenos.html" class="normal mx-5">Conocenos</a>
-        <a href="/pages/menu.html" class="resaltado mx-5">Menú</a>
-        <a href="/pages/contacto.html" class="normal mx-5">Contacto</a>
+        <a href="/pages/menu.html" class="normal mx-5">Menú</a>
+        <a href="/pages/contacto.html" class="resaltado mx-5">Contacto</a>
 
             <a href="https://instagram.com"><img src="../assets/redes/ig-navbar.png" alt="" class="ig me-5 mt-4"></a>
             <a href="/pages/delivery.html" class="botonsito-nav me-4 mt-5">DELIVERY</a>
@@ -51,10 +51,10 @@
                   <a class="nav-link active normal botonsito" aria-current="page" href="/pages/conocenos.html">Conocenos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active resaltado botonsito" aria-current="page" href="/pages/menu.html">Menú</a>
+                  <a class="nav-link active normal botonsito" aria-current="page" href="/pages/menu.html">Menú</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active normal botonsito" aria-current="page" href="/pages/contacto.html">Contacto</a>
+                  <a class="nav-link active resaltado botonsito" aria-current="page" href="/pages/contacto.html">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -63,81 +63,44 @@
 
     <div class="p-5 espaciado"></div>
 
-    <div class="p-5 bichito_menu">             
-        <h1>MENÚ</h1>
+    <div class="p-5 bichito_delivery">             
+        <h1>DELIVERY</h1>
     </div>
 
     <section class="text-center">
+    <div class="container div-delivery">
 
-      <div class="mt-3 div-menu-search">
-      <form role="search">
-        <input class="form-control me-2 search-menu" type="search" placeholder="Search" aria-label="Search"/>
-      </form>
+      <div class="row">
+
+        <div class="col-lg-4"></div>
+          <div class="col-lg-3 col-md-12">
+            <h1>Hacé tu pedido</h1>
+            <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem accusantium quae iure, mollitia nulla. Sunt excepturi, veritatis hic exercitationem eos quibusdam blanditiis. Et earum officiis voluptates ullam optio aut.</h6>
+          </div>
+
+          <form action="no se" method="post">
+            
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+
+              <label for="exampleFormControlInput2" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="exampleFormControlInput2">
+
+              <label for="exampleFormControlInput3" class="form-label">Dirección de entrega</label>
+              <input type="text" class="form-control" id="exampleFormControlInput3">
+
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje para el Delivery</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-success">Enviar</button>
+              <button type="reset" class="btn btn-danger">Cancelar</button>
+            </div>
+          </form>
+
+        </div>
       </div>
-
-
-        <div class="div-menu">
-          <div class="col-2">
-            <h1>Pizzas</h1>
-          </div>
-            <ul>1. Pizza Margarita-$10.99
-              <li>
-                Mozzarella fresca, tomate y albahaca.
-              </li>
-                2. Pizza Pepperoni-$12.99
-              <li>
-                Pepperoni, mozzarella y salsa de tomate.
-              </li>
-                3. Pizza Vegetariana-$11.99
-              <li>
-                Variedad de vegetales frescos y mozzarella.
-              </li>
-                4. Pizza Prosciutto e Funghi-$13.99
-              <li>
-                Jamón prosciutto, champiñones y mozzarella.
-              </li>
-                5. Pizza Quattro Stagioni-$14.99
-              <li>
-                Jamón, alcachofas, champiñones, aceitunas y mozzarella.
-              </li>
-            </ul>
-        </div>
-
-
-        <div class="div-menu">
-          <div class="col-2">
-            <h1>Entradas</h1>
-          </div>
-          <div>
-            <ul>1. Bruschettas-$5.99
-              <li>
-                Bruschettas tradicionales con tomate fresco y albahaca.
-              </li>
-                2. Ensalada Caprese-$7.99
-              <li>
-                Mozzarella fresca, tomate y albahaca con aceite de oliva.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="div-menu">
-          <div class="col-2">
-            <h1>Pasta</h1>
-          </div>
-          <div>
-            <ul>1. Pasta Carbonara-$13.99
-              <li>
-                Pasta al dente con salsa de huevo, panceta, queso parmesano y pimienta negra.
-              </li>
-                2. Pasta Bolognesa-$12.99
-              <li>
-                Pasta al dente con salsa de carne picada en tomate y cebolla.
-              </li>
-            </ul>
-          </div>
-        </div>
-          
 
     </section>
 
@@ -181,6 +144,7 @@
         <div class="col-lg-1 espaciado"></div>
 
     </div>
+
     
 </footer>
 

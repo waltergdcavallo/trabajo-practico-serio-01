@@ -3,7 +3,65 @@ body{
     width: 100%;
 }
 
-.bichito{
+
+.bichito_conocenos{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: para_foto;
+    background-size: cover;
+
+    h1{
+        text-align: center;
+        margin-top: 15%;
+        color: #fff;
+        font-size: 6em;
+    }
+}
+
+
+.bichito_contacto{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1606455036891-15e4be71eef0?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: para_foto;
+    background-size: cover;
+
+    h1{
+        text-align: center;
+        margin-top: 15%;
+        color: #fff;
+        font-size: 6em;
+    }
+}
+
+
+.bichito_delivery{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661526833843-248a2f8fe129?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: para_foto;
+    background-size: cover;
+
+    h1{
+        text-align: center;
+        margin-top: 15%;
+        color: #fff;
+        font-size: 6em;
+    }
+}
+
+
+.bichito_inicio{
     height: 100vh;
     width: 100%;
     background-image: url(https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
@@ -11,6 +69,7 @@ body{
     text-align: center;
     background-repeat: no-repeat;
     font-family: para_foto;
+    background-size: cover;
 
     h1{
         text-align: center;
@@ -29,8 +88,256 @@ body{
     a{
         margin-top: 10%;
     }
+}
+
+
+.bichito_menu{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1589187151053-5ec8818e661b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: para_foto;
+    background-size: cover;
+
+    h1{
+        text-align: center;
+        margin-top: 15%;
+        color: #fff;
+        font-size: 6em;
+    }
+
+    h4{
+        text-align: center;
+        margin-top: 2%;
+        color: #fff;
+        font-size: 2em;
+    }
+
+    a{
+        margin-top: 10%;
+    }
+}
+
+.div-conocenos{
+    margin-top: 10%;
+
+    .conocenos-img1{
+        background-image: url(/assets/img/conocenos-1.png);
+        background-position: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-family: para_foto;
+        background-size: cover;
+        border-radius: 1.25rem;
+        height: 30vh;
+
+        h3{
+            font-size: 3.5em;
+            margin-top: 20%;
+            color: #fff;
+        }
+    }
+
+    .conocenos-img2{
+        background-image: url(/assets/img/conocenos-2.png);
+        background-position: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-family: para_foto;
+        background-size: cover;
+        border-radius: 1.25rem;
+        height: 30vh;
+        float: right;
+
+        h3{
+            font-size: 3.5em;
+            margin-top: 30%;
+            color: #fff;
+        }
+    }
+
+    .conocenos-img3{
+        background-image: url(/assets/img/conocenos-3.png);
+        background-position: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-family: para_foto;
+        background-size: cover;
+        border-radius: 1.25rem;
+        height: 30vh;
+
+        h3{
+            font-size: 3.5em;
+            margin-top: 25%;
+            color: #fff;
+        }
+    }
+
+    .conocenos-img4{
+        background-image: url(/assets/img/conocenos-4.png);
+        background-position: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-family: para_foto;
+        background-size: cover;
+        border-radius: 1.25rem;
+        height: 30vh;
+
+
+        h3{
+            font-size: 2.5em;
+            margin-top: 20%;
+            color: #fff;
+        }
+    }
+
+    p{
+        font-size: 2em;
+        text-align: justify;
+        font-weight: 100;
+    }
 
     @include mobile{
-        background-size: cover;
+
+        .conocenos-img1{
+            height: 50vh;
+            h3{
+                margin-top: 30%;
+            }
+        }
+
+        .conocenos-img2{
+            height: 50vh;
+        }
+
+        .conocenos-img3{
+            height: 50vh;
+            h3{
+                margin-top: 30%;
+            }
+        }
+
+        .conocenos-img4{
+            height: 50vh;
+            h3{
+                font-size: 3.5em;
+            }
+        }
+    }
+}
+
+.conocenos-a{
+    @include mobile{
+        display: none;
+    }
+}
+
+.conocenos-b{
+    display: none;
+    @include mobile{
+        display: block;
+    }
+}
+
+.div-contacto{
+    margin-bottom: 6.25rem;
+
+    div{
+        margin-top: 1.875rem;
+        margin-bottom: 1.25rem;
+
+        h1{
+            font-family: para_foto;
+            font-weight: bold;
+        }
+        
+        h2{
+            text-align: left;
+            margin-bottom: 2.5rem;
+            font-family: para_foto;
+            font-weight: bold;
+        }
+        p{
+            text-align: left;
+        }
+
+        img{
+            height: 15vh;
+        }
+    }
+
+    @include  mobile{
+
+        div{
+
+            h2, p{
+                text-align: center;
+            }
+
+            img{
+                height: 20vh;
+            }
+        }
+    }
+}
+
+.div-menu-search{
+    width: 90%;
+    display: inline-block;    
+}
+
+.div-menu{
+    margin-top: 3.125rem;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    ul{
+        padding: 1.875rem;
+        text-align: left;            
+        border: 1px solid;
+        border-radius: 1.25rem;  
+        background-color: $fondo-marron;
+        border-color: $fondo-marron;
+        color: #fff;
+        margin-top: -40px;
+    }
+
+    div{
+
+        h1{
+            padding-bottom: 2.5rem;
+            color: #fff;
+            border: 1px solid $fondo-marron;
+            border-radius: 1.25rem;            
+            background-color: $fondo-marron;
+            font-family: para_fotos;
+            font-size: 1.5em;
+        }
+
+
+    }
+}
+
+.div-delivery{
+    margin-bottom: 6.25rem;
+
+    div{
+        margin-top: 1.875rem;
+        margin-bottom: 1.25rem;
+
+        h1{
+            font-family: para_foto;
+            font-weight: bold;
+        }
+    }
+
+    form{
+        background-color: #fff;
+
+        div{
+            text-align: left;
+        }
     }
 }

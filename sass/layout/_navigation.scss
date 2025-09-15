@@ -4,6 +4,7 @@
     height: 15vh;
     position: fixed;
     white-space: nowrap;
+    font-family: para_nav_botones, sans-serif;
 
     .logo{
         height: 100%;
@@ -28,19 +29,19 @@
     }
 }
 
-    .resaltado{
-        font-weight: bold;
-        font-size: 1.8em;
-        color: black;
-        margin-left: 5%;
+.resaltado{
+    font-weight: bold;
+    font-size: 1.8em;
+    color: black;
+    margin-left: 5%;
+    transition: 1s;
+    &:hover{
         transition: 1s;
-
-        &:hover{
-            transition: 1s;
-            color: #A10000;
-            scale: 1.3%;
-        }
+        color: #A10000;
+        scale: 1.3%;
     }
+    font-family: para_nav, sans-serif;
+}
 
     .normal{
         font-weight: 100;

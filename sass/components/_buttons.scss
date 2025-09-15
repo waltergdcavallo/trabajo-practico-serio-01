@@ -8,6 +8,7 @@
     border-radius: 5rem;
     transition: 1s;
     display: inline-block; 
+    font-family: para_nav, sans-serif;
 
     &:hover{
         scale: 1.2;
@@ -28,6 +29,7 @@
     border-color: $fondo-rojo;
     transition: 1s;
     display: inline-block;
+    font-family: para_nav, sans-serif;
 
     &:hover{
         scale: 1.2;
@@ -53,6 +55,7 @@
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 2.5%;
+    font-family: para_nav, sans-serif;
 
     &:hover{
         scale: 1.2;
@@ -70,6 +73,7 @@
     border-radius: 5rem;
     transition: 1s;
     display: inline-block;
+    font-family: para_nav, sans-serif;
     
         &:hover{
         scale: 1.2;
