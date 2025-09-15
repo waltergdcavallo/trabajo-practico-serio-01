@@ -187,7 +187,7 @@ body {
 .bichito_conocenos {
   height: 100vh;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -204,7 +204,7 @@ body {
 .bichito_contacto {
   height: 100vh;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1606455036891-15e4be71eef0?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(https://images.unsplash.com/photo-1606455036891-15e4be71eef0?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -221,7 +221,7 @@ body {
 .bichito_delivery {
   height: 100vh;
   width: 100%;
-  background-image: url(https://plus.unsplash.com/premium_photo-1661526833843-248a2f8fe129?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(https://plus.unsplash.com/premium_photo-1661526833843-248a2f8fe129?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ body {
 .bichito_inicio {
   height: 100vh;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -264,7 +264,7 @@ body {
 .bichito_menu {
   height: 100vh;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1589187151053-5ec8818e661b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(https://images.unsplash.com/photo-1589187151053-5ec8818e661b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -291,7 +291,7 @@ body {
   margin-top: 10%;
 }
 .div-conocenos .conocenos-img1 {
-  background-image: url(/assets/img/conocenos-1.png);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(/assets/img/conocenos-1.png);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -302,11 +302,11 @@ body {
 }
 .div-conocenos .conocenos-img1 h3 {
   font-size: 3.5em;
-  margin-top: 20%;
+  margin-top: 15%;
   color: #fff;
 }
 .div-conocenos .conocenos-img2 {
-  background-image: url(/assets/img/conocenos-2.png);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(/assets/img/conocenos-2.png);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -318,11 +318,11 @@ body {
 }
 .div-conocenos .conocenos-img2 h3 {
   font-size: 3.5em;
-  margin-top: 30%;
+  margin-top: 25%;
   color: #fff;
 }
 .div-conocenos .conocenos-img3 {
-  background-image: url(/assets/img/conocenos-3.png);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(/assets/img/conocenos-3.png);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -333,11 +333,11 @@ body {
 }
 .div-conocenos .conocenos-img3 h3 {
   font-size: 3.5em;
-  margin-top: 25%;
+  margin-top: 20%;
   color: #fff;
 }
 .div-conocenos .conocenos-img4 {
-  background-image: url(/assets/img/conocenos-4.png);
+  background-image: linear-gradient(90deg, rgba(138, 67, 67, 0.4) 100%, rgb(138, 67, 67) 100%), url(/assets/img/conocenos-4.png);
   background-position: center;
   text-align: center;
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@ body {
     height: 50vh;
   }
   .div-conocenos .conocenos-img1 h3 {
-    margin-top: 30%;
+    margin-top: 25%;
   }
   .div-conocenos .conocenos-img2 {
     height: 50vh;
@@ -370,7 +370,7 @@ body {
     height: 50vh;
   }
   .div-conocenos .conocenos-img3 h3 {
-    margin-top: 30%;
+    margin-top: 25%;
   }
   .div-conocenos .conocenos-img4 {
     height: 50vh;
