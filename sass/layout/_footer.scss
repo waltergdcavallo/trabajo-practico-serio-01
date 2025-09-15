@@ -11,6 +11,7 @@ footer{
         margin-top: 20%;
         font-family: para_fotos;
     }
+
     .div_footer{
         height: 60vh;
 
@@ -19,12 +20,15 @@ footer{
             margin-bottom: 15%;
  
         }
+
         .p_footer{
            text-align: justify; 
         }
+
         .imagen_footer_1{
             height: 30%;
         }
+
         .imagen_footer_2{
             height: 15%;
             float: inline-start;
@@ -34,6 +38,7 @@ footer{
 }
 
 @include mobile{
+
     .espaciado{
         display: none;
     }
@@ -41,9 +46,6 @@ footer{
     footer{
         text-align: left;
         height: 180vh;
-
-
-
 
         h3{
             margin-top: 10%;
@@ -77,7 +79,5 @@ footer{
                 margin-top: 10%;
             }
         }
-
     }
-
 }
