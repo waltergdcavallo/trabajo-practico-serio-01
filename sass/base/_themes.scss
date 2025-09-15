@@ -1,0 +1,32 @@
+/* main.css */
+body.dark-mode {
+    background-color: #181818;
+    color: #f1f1f1;
+}
+body.dark-mode nav,
+body.dark-mode .navbar{
+    background-color: #222 !important;
+}
+body.dark-mode .botonsito-nav,
+body.dark-mode .botonsito,
+body.dark-mode .botonsito-head,
+body.dark-mode .boton_bordeado,
+body.dark-mode .section_cambiado,
+body.dark-mode .div-delivery div form{
+    background-color: #333 !important;
+    color: #f1f1f1 !important;
+    border-color: #444 !important;
+}
+.icon-sun {
+    color: #FFD700 !important; /* Amarillo dorado */
+}
+
+/* Agrega más estilos según lo necesites */
+
+/* Cambia el color del icono del botón desplegable del navbar a blanco */
+body.dark-mode .navbar-toggler{
+    border-color: #fff;
+}
+body.dark-mode .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
